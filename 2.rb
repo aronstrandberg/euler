@@ -1,3 +1,4 @@
+# fib code from http://stackoverflow.com/a/24438837
 def fib(n, cache = {})
   if n == 0 || n == 1
     return n
