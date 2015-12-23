@@ -6,7 +6,7 @@ def fib(n, cache = {})
   cache[n] ||= fib(n-1, cache) + fib(n-2, cache)
 end
 
-
+# just tested it, 34th fibonacci number > 4 million
 puts (1..33).to_a
   .map { |n| fib n }
   .select { |n| n.even? }
