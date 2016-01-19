@@ -25,10 +25,6 @@ class Array
     self.reduce(:+)
   end
 
-  def product
-    self.reduce(:*)
-  end
-
   def to_integers
     self.map(&:to_i)
   end
